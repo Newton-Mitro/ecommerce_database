@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="19515d73-e8b7-4145-a67b-e6fd4ce3cab9" ChangeDateTime="04/27/2023 04:13:06">
+    <Property Name="ElementName" Value="[dbo].[Orders].[ShippingAddress]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Orders]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ShippingAddressId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d0037d5e-6d5b-42dd-916e-987b87b2fe9c" ChangeDateTime="04/27/2023 06:42:54">
+    <Property Name="ElementName" Value="[dbo].[PromotionsCategories].[ParentId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PromotionsCategories]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CategoryId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f3209148-34ca-451e-b4f3-f9bfb7296ea6" ChangeDateTime="04/27/2023 06:43:07">
+    <Property Name="ElementName" Value="[dbo].[PromotionsCategories].[CategoryName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PromotionsCategories]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PromotionId" />
+  </Operation>
+</Operations>
